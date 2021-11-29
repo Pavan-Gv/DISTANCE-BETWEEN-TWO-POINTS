@@ -1,19 +1,30 @@
 # DISTANCE-BETWEEN-TWO-POINTS
 
-## AIM:
-To write a python program to find the distance two 2 points
-## ALGORITHM:
+## AIM:-
+To calculate the distance between two points using python program.
+## ALGORITHM:-
 ### Step 1: 
+ Give the user values of points.
 ### Step 2: 
+Arrange the values into their respective variables.
 ### Step 3: 
-Substitute the values in the distance formula  ![formula](/formula.jpg)
+Substitute the values in the distance formula  
+![formula](/formula/formula...png)
 ### Step 4: 
-### Step 5: 
-### PROGRAM:
-  
+The out of distance formula is obtained.
+### Step 5:
+End the program. 
 
 
-### OUTPUT:
+### PROGRAM:-
+  import numpy as np
+x1=[10,6]
+x2=[4,2]
+distance=np.sqrt(((x1[0]-x2[0])**2)+((x1[1]-x2[1])**2))
+print("{:.2f}".format(distance))
 
+### OUTPUT:-
+![Output](/pics/picofinverse.png)
 
-### RESULT:
+### RESULT:-
+Therefore we successufully calculated the distance between two points using python program.
